@@ -1,0 +1,194 @@
+{
+
+  "survey": {
+    "developer_profile": [
+      {
+        "question": "What is the highest level of formal education you have completed?",
+        "options": [
+          "No formal education",
+          "High school diploma or equivalent",
+          "Associate degree",
+          "Bachelor's degree",
+          "Master's degree",
+          "Doctoral degree"
+        ]
+      },
+      {
+        "question": "Including any education, how many years have you been coding in total?",
+        "options": [
+          "Less than 1 year",
+          "1-4 years",
+          "5-9 years",
+          "10-14 years",
+          "15-19 years",
+          "20 years or more"
+        ]
+      },
+      {
+        "question": "Which of the following best describes your current role?",
+        "options": [
+          "Back-end developer",
+          "Front-end developer",
+          "Full-stack developer",
+          "Mobile developer",
+          "DevOps specialist",
+          "Data scientist",
+          "Student",
+          "Other"
+        ]
+      }
+    ],
+    "technology_usage": [
+      {
+        "question": "Which programming, scripting, and markup languages have you used in the past year?",
+        "options": [
+          "JavaScript",
+          "Python",
+          "HTML/CSS",
+          "SQL",
+          "Java",
+          "C#",
+          "TypeScript",
+          "C++",
+          "C",
+          "Go",
+          "Rust",
+          "Other"
+        ]
+      },
+      {
+        "question": "Which databases have you used in the past year?",
+        "options": [
+          "PostgreSQL",
+          "MySQL",
+          "SQLite",
+          "MongoDB",
+          "Redis",
+          "Microsoft SQL Server",
+          "Other"
+        ]
+      },
+      {
+        "question": "Which cloud platforms have you used in the past year?",
+        "options": [
+          "Amazon Web Services (AWS)",
+          "Microsoft Azure",
+          "Google Cloud Platform",
+          "Heroku",
+          "Firebase",
+          "Other"
+        ]
+      },
+      {
+        "question": "Which tools do you use for version control?",
+        "options": [
+          "Git",
+          "Subversion",
+          "Mercurial",
+          "Perforce",
+          "Other",
+          "I don’t use version control"
+        ]
+      }
+    ],
+    "work_environment": [
+      {
+        "question": "What is your current employment status?",
+        "options": [
+          "Employed full-time",
+          "Employed part-time",
+          "Independent contractor, freelancer, or self-employed",
+          "Not employed, but looking for work",
+          "Not employed, and not looking for work",
+          "Retired",
+          "Student"
+        ]
+      },
+      {
+        "question": "What is your primary work model?",
+        "options": [
+          "Fully remote",
+          "Hybrid (some remote, some on-site)",
+          "Fully on-site"
+        ]
+      },
+      {
+        "question": "What are the most important factors when considering a new job?",
+        "options": [
+          "Salary and benefits",
+          "Work-life balance",
+          "Opportunities for professional development",
+          "Company culture",
+          "Flexibility (e.g., remote work)",
+          "Tech stack",
+          "Other"
+        ]
+      }
+    ],
+    "artificial_intelligence": [
+      {
+        "question": "Have you used any AI tools to assist in your development work?",
+        "options": ["Yes", "No"]
+      },
+      {
+        "question": "Which AI tools have you used in the past year?",
+        "options": [
+          "GitHub Copilot",
+          "ChatGPT",
+          "TabNine",
+          "Amazon CodeWhisperer",
+          "Other",
+          "None"
+        ]
+      },
+      {
+        "question": "What is your general attitude towards AI tools in software development?",
+        "options": [
+          "Very positive",
+          "Somewhat positive",
+          "Neutral",
+          "Somewhat negative",
+          "Very negative"
+        ]
+      },
+      {
+        "question": "Which tasks do you primarily use AI tools for?",
+        "options": [
+          "Code completion",
+          "Debugging",
+          "Testing",
+          "Learning new frameworks or technologies",
+          "Writing documentation",
+          "Other"
+        ]
+      }
+    ],
+    "community_engagement": [
+      {
+        "question": "Do you participate in developer communities?",
+        "options": ["Yes, regularly", "Yes, occasionally", "No"]
+      },
+      {
+        "question": "Where do you go to learn about new technologies?",
+        "options": [
+          "Online forums (e.g., Stack Overflow, Reddit)",
+          "YouTube tutorials",
+          "Official documentation",
+          "Developer blogs",
+          "Conferences and meetups",
+          "Other"
+        ]
+      },
+      {
+        "question": "Which resources do you rely on most for solving technical problems?",
+        "options": [
+          "Stack Overflow",
+          "Official documentation",
+          "GitHub issues",
+          "Developer blogs",
+          "Other"
+        ]
+      }
+    ]
+  }
+}

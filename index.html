@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="" id="surveyForm"></form>
+        <!-- <form action="" id="surveyForm">
+            <div class="question-page" id="page0">
+                <h1>HELLO</h1>
+                <p>Enter Your Name</p>
+                <label><input type="text" id="name" required></label>
+                <div class="buttons">
+                    <button type="button"  onclick="nextPage(1)">Start The Survey</button>
+                </div>
+            </div>
+            <div class="question-page" id="page1">
+                <h1>Question 1</h1>
+                <p>What is the highest level of formal education you have completed?</p>
+                <label><input type="radio"  value="No formal education">No Formal Education</label>
+                <label><input type="radio"  value="High School or Diploma">High School or Diploma</label>
+                <label><input type="radio"  value="Bachelor Degree">Bachelor Degree</label>
+                <label><input type="radio"  value="Masters Degree">Masters Degree</label>
+                <label><input type="radio"  value="PHD">PHD</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(2)">Next</button>
+                    <button type="button" onclick="nextPage(0)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page2">
+                <h1>Question 2</h1>
+                <p>Including any education, how many years have you been coding in total?</p>
+                <label><input type="radio"  value="Less Than A Year">Less Than A Year</label>
+                <label><input type="radio"  value="1-4 Year">1-4 Year</label>
+                <label><input type="radio"  value="5-9 Year">5-9 Year</label>
+                <label><input type="radio"  value="10-14 Years">10-14 Year</label>
+                <label><input type="radio"  value="More Than 15 Year">More Than 15 Year</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(3)">Next</button>
+                    <button type="button" onclick="nextPage(1)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page3">
+                <h1>Question 3</h1>
+                <p>Which of the following best describes your current role?</p>
+                <label><input type="radio" value="Back End Developer">Back End Developer</label>
+                <label><input type="radio" value="Front End Developer">Front End Developer</label>
+                <label><input type="radio" value="Data Scientist">Data Scientist</label>
+                <label><input type="radio" value="Student">Student</label>
+                <label><input type="radio" value="Mobile Developer">Mobile Developer</label>
+                <label><input type="radio" value="Devops specialist">Devops Specialist</label>
+                <label><input type="radio" value="Other">Other</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(4)">Next</button>
+                    <button type="button" onclick="previousPage(2)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page4">
+                <h1>Question 4</h1>
+                <p>Which programming, scripting, and markup languages have you used in the past year?</p>
+                <label><input type="radio" value="HTML/CSS">HTML/CSS</label>
+                <label><input type="radio" value="Python">Pythonr</label>
+                <label><input type="radio" value="JavaScript">JavaScript</label>
+                <label><input type="radio" value="SQL">SQL</label>
+                <label><input type="radio" value="Java">Java</label>
+                <label><input type="radio" value="TypeScript">TypeScriptt</label>
+                <label><input type="radio" value="Other">Other</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(5)">Next</button>
+                    <button type="button" onclick="previousPage(3)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page5">
+                <h1>Question 5</h1>
+                <p>Which databases have you used in the past year?</p>
+                <label><input type="radio" value="PostgreSQL">PostgreSQL</label>
+                <label><input type="radio" value="MySQL">MySQL</label>
+                <label><input type="radio" value="SQLite">SQLite</label>
+                <label><input type="radio" value="MongoDB">MongoDB</label>
+                <label><input type="radio" value="Redis">Redis</label>
+                <label><input type="radio" value="MicroSoft SQL Server">MicroSoft SQL Server</label>
+                <label><input type="radio" value="Other">Other</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(6)">Next</button>
+                    <button type="button" onclick="previousPage(4)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page6">
+                <h1>Question 6</h1>
+                <p>Which cloud platforms have you used in the past year?</p>
+                <label><input type="radio" value="Amazon Web Services (AWS)">Amazon Web Services (AWS)</label>
+                <label><input type="radio" value="Microsoft Azure">MicroSoft Azure</label>
+                <label><input type="radio" value="Google Cloud Platform">Google Cloud Platform</label>
+                <label><input type="radio" value="Heroku">Heroku</label>
+                <label><input type="radio" value="Firebase">Firebase</label>
+                <label><input type="radio" value="Other">Other</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(7)">Next</button>
+                    <button type="button" onclick="previousPage(5)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page7">
+                <h1>Question 7</h1>
+                <p>Which cloud platforms have you used in the past year?</p>
+                <label><input type="radio"  value="Amazon Web Services (AWS)">Amazon Web Services (AWS)</label>
+                <label><input type="radio"  value="Microsoft Azure">MicroSoft Azure</label>
+                <label><input type="radio"  value="Google Cloud Platform">Google Cloud Platform</label>
+                <label><input type="radio"  value="Heroku">Heroku</label>
+                <label><input type="radio"  value="Firebase">Firebase</label>
+                <label><input type="radio"  value="Other">Other</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(8)">Next</button>
+                    <button type="button" onclick="previousPage(6)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page8">
+                <h1>Question 8</h1>
+                <p>Which tools do you use for version control?</p>
+                <label><input type="radio"  value="Git">Git</label>
+                <label><input type="radio"  value="Subversion">Subversion</label>
+                <label><input type="radio"  value="Mercurial">Mercurial</label>
+                <label><input type="radio"  value="Perforce">Perforce</label>
+                <label><input type="radio"  value="Other">Other"</label>
+                <label><input type="radio"  value="Dont Use any">Dont use any</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(9)">Next</button>
+                    <button type="button" onclick="previousPage(7)">Previous</button>
+                </div>
+            </div>
+            <div class="question-page" id="page9" >
+                <h1>Question 9</h1>
+                <p>What is your current employment status?</p>
+                <label><input type="radio" name="employment_status" value="Employed full-time">Employed full-time</label>
+                <label><input type="radio" name="employment_status" value="Employed part-time">Employed part-time</label>
+                <label><input type="radio" name="employment_status" value="Independent contractor, freelancer, or self-employed">Independent contractor, freelancer, or self-employed</label>
+                <label><input type="radio" name="employment_status" value="Not employed, but looking for work">Not employed, but looking for work</label>
+                <label><input type="radio" name="employment_status" value="Not employed, and not looking for work">Not employed, and not looking for work</label>
+                <label><input type="radio" name="employment_status" value="Retired">Retired</label>
+                <label><input type="radio" name="employment_status" value="Student">Student</label>
+                <div class="buttons">
+                    <button type="button" onclick="nextPage(10)">Next</button>
+                    <button type="button" onclick="previousPage(8)">Previous</button> 
+                </div>
+            </div>
+                <div class="question-page" id="page10" >
+                    <h1>Question 10</h1>
+                    <p>What is your primary work model?</p>
+                    <label><input type="radio" name="work_model" value="Fully remote">Fully remote</label>
+                    <label><input type="radio" name="work_model" value="Hybrid (some remote, some on-site)">Hybrid (some remote, some on-site)</label>
+                    <label><input type="radio" name="work_model" value="Fully on-site">Fully on-site</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(11)">Next</button>
+                        <button type="button" onclick="previousPage(9)">Previous</button>
+                        
+                    </div>
+                </div>
+                <div class="question-page" id="page11">
+                    <h1>Question 11</h1>
+                    <p>What are the most important factors when considering a new job?</p>
+                    <label><input type="radio" name="job_factors" value="Salary and benefits">Salary and benefits</label>
+                    <label><input type="radio" name="job_factors" value="Work-life balance">Work-life balance</label>
+                    <label><input type="radio" name="job_factors" value="Opportunities for professional development">Opportunities for professional development</label>
+                    <label><input type="radio" name="job_factors" value="Company culture">Company culture</label>
+                    <label><input type="radio" name="job_factors" value="Flexibility (e.g., remote work)">Flexibility (e.g., remote work)</label>
+                    <label><input type="radio" name="job_factors" value="Tech stack">Tech stack</label>
+                    <label><input type="radio" name="job_factors" value="Other">Other</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(12)">Next</button>
+                        <button type="button" onclick="previousPage(10)">Previous</button>
+                        
+                    </div>
+                </div>
+                <div class="question-page" id="page12" >
+                    <h1>Question 12</h1>
+                    <p>Have you used any AI tools to assist in your development work?</p>
+                    <label><input type="radio" name="ai_tools" value="Yes">Yes</label>
+                    <label><input type="radio" name="ai_tools" value="No">No</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(13)">Next</button>
+                        <button type="button" onclick="previousPage(11)">Previous</button>
+                        
+                    </div>
+                </div>
+                <div class="question-page" id="page13" >
+                    <h1>Question 13</h1>
+                    <p>Which AI tools have you used in the past year?</p>
+                    <label><input type="radio" name="ai_tools_used" value="GitHub Copilot">GitHub Copilot</label>
+                    <label><input type="radio" name="ai_tools_used" value="ChatGPT">ChatGPT</label>
+                    <label><input type="radio" name="ai_tools_used" value="TabNine">TabNine</label>
+                    <label><input type="radio" name="ai_tools_used" value="Amazon CodeWhisperer">Amazon CodeWhisperer</label>
+                    <label><input type="radio" name="ai_tools_used" value="Other">Other</label>
+                    <label><input type="radio" name="ai_tools_used" value="None">None</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(14)">Next</button>
+                        <button type="button" onclick="previousPage(12)">Previous</button>
+                        
+                    </div>
+                </div>
+                <div class="question-page" id="page14" >
+                    <h1>Question 14</h1>
+                    <p>What is your general attitude towards AI tools in software development?</p>
+                    <label><input type="radio" name="ai_attitude" value="Very positive">Very positive</label>
+                    <label><input type="radio" name="ai_attitude" value="Somewhat positive">Somewhat positive</label>
+                    <label><input type="radio" name="ai_attitude" value="Neutral">Neutral</label>
+                    <label><input type="radio" name="ai_attitude" value="Somewhat negative">Somewhat negative</label>
+                    <label><input type="radio" name="ai_attitude" value="Very negative">Very negative</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(15)">Next</button>
+                        <button type="button" onclick="previousPage(13)">Previous</button>
+                       
+                    </div>
+                </div>
+                <div class="question-page" id="page15" >
+                    <h1>Question 15</h1>
+                    <p>Which tasks do you primarily use AI tools for?</p>
+                    <label><input type="radio" name="ai_tasks" value="Code completion">Code completion</label>
+                    <label><input type="radio" name="ai_tasks" value="Debugging">Debugging</label>
+                    <label><input type="radio" name="ai_tasks" value="Testing">Testing</label>
+                    <label><input type="radio" name="ai_tasks" value="Learning new frameworks or technologies">Learning new frameworks or technologies</label>
+                    <label><input type="radio" name="ai_tasks" value="Writing documentation">Writing documentation</label>
+                    <label><input type="radio" name="ai_tasks" value="Other">Other</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(16)">Next</button>
+                        <button type="button" onclick="previousPage(14)">Previous</button>
+                        
+                    </div>
+                </div>
+                <div class="question-page" id="page16" >
+                    <h1>Question 16</h1>
+                    <p>Do you participate in developer communities?</p>
+                    <label><input type="radio" name="community_participation" value="Yes, regularly">Yes, regularly</label>
+                    <label><input type="radio" name="community_participation" value="Yes, occasionally">Yes, occasionally</label>
+                    <label><input type="radio" name="community_participation" value="No">No</label>
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(17)">Next</button>
+                        <button type="button" onclick="previousPage(15)">Previous</button>
+                        
+                    </div>
+                </div>
+                <div class="question-page" id="page17" >
+                    <h1>Question 17</h1>
+                    <p>Which resources do you rely on most for solving technical problems?</p>
+                    <label><input type="radio" name="resources_reliedON" value="Stack Overflow">Stack Overflow</label>
+                    <label><input type="radio" name="resources_reliedON" value="Official documentation">Official documentation</label>
+                    <label><input type="radio" name="resources_reliedON" value="GitHub issues">GitHub issues</label>
+                    
+                    <div class="buttons">
+                        <button type="button" onclick="nextPage(18)">Next</button>
+                        <button type="button" onclick="previousPage(16)">Previous</button>
+                        
+                    </div>
+                </div>
+            <div class="question-page" id="page18">
+                <h1>Thank you for completing the survey!</h1>
+                <div class="buttons">
+                    <button type="submit" onclick="">Done</button>
+                </div>
+            </div>
+        </form> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
